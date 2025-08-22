@@ -1,8 +1,6 @@
 // package ;
 
-public final class WoodSet {
-  public class Config {}
-
-  public static void register() {}
-  public static void extend() {}
+public class WoodSet {
+  public static void register(WoodSet woodSet) {}
+  public static void extend(WoodSet woodSet) {}
 }
